@@ -16,6 +16,9 @@ export const App = () => {
     setIncompleteTodos(newTodos);
     setTodoText("");
   };
+  const onClickDelete = () => {
+    alert("削除");
+  };
 
   return (
     <>
@@ -35,7 +38,7 @@ export const App = () => {
               <div key={todo} className="list-row">
                 <li>{todo}</li>
                 <button>完了</button>
-                <button>削除</button>
+                <button onClick={onClickDelete}>削除</button>
               </div>
             );
           })}
