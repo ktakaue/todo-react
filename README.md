@@ -1,2 +1,6 @@
-# todo-react
-Created with CodeSandbox
+react 17.0.2<br>
+react-dom 17.0.2<br>
+react-scripts4.0.0<br> <br>
+
+機能紹介<br>
+1.Todo を入力すると未完了の Todo に追加される<br> 2.未完了の Todo は削除と完了を行える（完了を押下した場合は完了した Todo に追加される）<br> 3.完了した Todo は戻すを行える（戻すを押下した場合は未完了の Todo に移動する）<br> \*未完了に５つ以上の Todo がある場合は新たに未完了の Todo を追加することができないように設計した（制限の追加）
